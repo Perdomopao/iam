@@ -1,0 +1,64 @@
+
+row img {
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.row img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+.btn-tiktok {
+            background-color: #25F4EE; /* Color de fondo */
+            color: #000; /* Color del texto */
+            padding: 10px 20px; /* Espaciado interno */
+            border-radius: 50px; /* Bordes redondeados */
+            border: 2px solid transparent; /* Borde transparente */
+            transition: all 0.3s ease; /* Efecto de transición */
+            font-size: 1.5rem; /* Tamaño del ícono */
+        }
+        .btn-tiktok:hover {
+            background-color: #69C9D0; /* Fondo más oscuro al pasar el cursor */
+            color: #fff; /* Texto blanco */
+            border-color: #25F4EE; /* Borde color TikTok */
+        }
+        .btn-tiktok i {
+            margin-right: 10px; /* Espaciado entre ícono y texto */
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
