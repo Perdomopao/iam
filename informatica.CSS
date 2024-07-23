@@ -1,0 +1,52 @@
+body{background-color: azure;
+}
+
+
+
+.move-image {
+    transition: transform 0.3s ease-in-out;
+ 
+    
+
+    
+    }
+
+.move-image:hover {
+    transform: translateY(-10px); 
+}
+
+
+
+
+
+
+
+        /* Botón con borde morado */
+        .btn-bordered.btn-purple {
+            border: 2px solid #6f42c1; /* Borde morado */
+            color: #6f42c1; /* Texto morado */
+        }
+        .btn-bordered.btn-purple:hover {
+            background-color: #6f42c1; /* Fondo morado al pasar el cursor */
+            color: #fff; /* Texto blanco */
+        }  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
