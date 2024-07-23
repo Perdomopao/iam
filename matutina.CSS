@@ -1,0 +1,21 @@
+body{background-color: azure;
+}
+
+
+
+.move-image {
+    transition: transform 0.3s ease-in-out;
+ 
+    
+
+    
+    }
+
+.move-image:hover {
+    transform: translateY(-10px); 
+}
+
+
+
+
+
