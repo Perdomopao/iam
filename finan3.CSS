@@ -1,0 +1,40 @@
+.card-hover {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajustes adicionales para tamaños pequeños */
+.card {
+    max-width: 11rem; /* Ajusta el tamaño máximo de la card */
+    margin: auto;     /* Centra la card */
+}
+
+
+
+
+
+
+
+        /* Botón con borde morado */
+        .btn-bordered.btn-purple {
+            border: 2px solid #6f42c1; /* Borde morado */
+            color: #6f42c1; /* Texto morado */
+        }
+        .btn-bordered.btn-purple:hover {
+            background-color: #6f42c1; /* Fondo morado al pasar el cursor */
+            color: #fff; /* Texto blanco */
+        }  
+    
+
+
+
+
+
+
+
+
+
