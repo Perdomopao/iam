@@ -1,0 +1,378 @@
+body{
+    font-family:Cream Cake;
+   background-color: azure;
+
+    }
+.Contenedor{
+padding: 50px;
+    width: 500;
+    height:100;
+  margin-left: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.presentacion{
+    padding: 200px;
+
+}
+img{
+    width: 200px;
+    height: 390px;
+}
+.Historia{
+margin-left: 300px;
+    width: 50%;
+    height: 50%;
+    padding: 2px;
+    font-family: News701 BT;
+
+}
+.carousel-item active{
+    display: flex;
+}
+.logo{
+    
+box-shadow: 0 0 20px 2px rgba(0 ,0 , 0, .1);
+transition: 1s;
+}
+
+   
+    }
+.btn:hover{
+    box-shadow: 15px, 15px, 40px ;
+    transform: translateY(-4%);
+    }
+.info{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+    margin-left: 500px;
+}
+.clases img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    display:block;
+}
+.clases{
+    box-shadow: 0 0 20px 2px rgba(o, 0, 0,.1);
+    transition: 1s;
+    
+}
+.clases:hover{
+     transform: scale(1.3);
+    z-index: 2;
+}
+.contenedor{
+    margin: 50px;
+    padding-left: 450px;
+    }
+
+
+
+
+
+
+
+
+#carouselExampleAutoplaying{
+ width: 60%;   
+height: 450px;    
+margin: auto;    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list-group{
+
+margin-right:50px;
+    margin-left:100px;
+  border table-layout: 12;
+   
+  
+   
+   
+   
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+.move-image {
+    transition: transform 0.3s ease-in-out;
+ 
+    
+
+    
+    }
+
+.move-image:hover {
+    transform: translateY(-10px); 
+}
+
+
+
+
+
+
+
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+section {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%; /* Ajusta el ancho de la barra de navegación */
+    max-width: 800px; /* Ancho máximo para la barra de navegación */
+    background: #ffffff; /* Fondo blanco */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra sutil para elevar la barra */
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 10px 0; /* Espaciado interno */
+    z-index: 1000; /* Asegura que la barra esté siempre sobre otros elementos */
+    text-align: center; /* Centra el contenido dentro de la barra */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos dentro de la barra */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.navbar ul li {
+    margin: 0 20px; /* Espaciado entre los elementos de la barra */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333; /* Color del texto */
+    font-weight: bold;
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 25px; /* Bordes redondeados para los enlaces */
+    transition: background-color 0.3s, color 0.3s; /* Efecto de transición para el cambio de color */
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Color de fondo al pasar el cursor */
+    color: #555; /* Color del texto al pasar el cursor */
+}
+
+.search-container {
+    margin: 0;
+    padding: 0;
+}
+
+.search-container form {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.search-container input[type="text"] {
+    border: none;
+    padding: 10px;
+    border-radius: 25px 0 0 25px; /* Bordes redondeados solo para la izquierda */
+    outline: none;
+    width: 150px; /* Ajusta el ancho del campo de búsqueda */
+}
+
+.search-container button {
+    border: none;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0; /* Bordes redondeados solo para la derecha */
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #555; /* Cambia el color al pasar el cursor */
+}
+
+.content {
+    margin-top: 100px; /* Espacio para que el contenido no quede debajo de la barra */
+    padding: 20px;
+}
+
+
+
+
+
+.footer{
+    background-color:black;
+    width: 100%;
+    height: 150px;
+    
+}
+
+
+
+
+.btn-tiktok {
+            color: white;
+            background-color: black;
+            border: none;
+        }
+        .btn-tiktok:hover {
+            background-color:skyblue;
+        }
+
+
+
+.card-hover {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajustes adicionales para tamaños pequeños */
+.card {
+    max-width: 17rem; /* Ajusta el tamaño máximo de la card */
+    margin: auto;     /* Centra la card */
+}
+
+
+
+
+
+
+
+        /* Botón con borde morado */
+        .btn-bordered.btn-purple {
+            border: 2px solid #6f42c1; /* Borde morado */
+            color: #6f42c1; /* Texto morado */
+        }
+        .btn-bordered.btn-purple:hover {
+            background-color: #6f42c1; /* Fondo morado al pasar el cursor */
+            color: #fff; /* Texto blanco */
+        }  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

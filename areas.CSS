@@ -1,0 +1,130 @@
+body{
+    background-image: url(min.PNG)
+}
+
+
+
+
+
+
+
+.btn-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 30px; /* Botones redondeados para un estilo más profesional */
+    padding: 10px 20px; /* Añadir espacio alrededor del texto */
+    font-size: 1.1em; /* Incrementar tamaño de fuente para mejor visibilidad */
+}
+
+.btn-hover:hover {
+    transform: translateY(-3px); /* Movimiento hacia arriba al pasar el cursor */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.btn-hover:active {
+    transform: translateY(2px); /* Movimiento hacia abajo al hacer clic */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); /* Sombra reducida al hacer clic */
+}
+
+
+
+
+
+
+
+
+
+  /* Estilo personalizado para botones con bordes de colores */
+        .btn-bordered {
+            background-color: transparent; /* Fondo transparente */
+            color: #007bff; /* Color del texto */
+            padding: 10px 20px; /* Espaciado interno */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: all 0.3s ease; /* Efecto de transición */
+        }
+
+        /* Botón con borde azul */
+        .btn-bordered.btn-blue {
+            border: 2px solid #007bff; /* Borde azul */
+            color: #007bff; /* Texto azul */
+        }
+        .btn-bordered.btn-blue:hover {
+            background-color: #007bff; /* Fondo azul al pasar el cursor */
+            color: #fff; /* Texto blanco */
+        }
+
+        /* Botón con borde rojo */
+        .btn-bordered.btn-red {
+            border: 2px solid #dc3545; /* Borde rojo */
+            color: #dc3545; /* Texto rojo */
+        }
+        .btn-bordered.btn-red:hover {
+            background-color: #dc3545; /* Fondo rojo al pasar el cursor */
+            color: #fff; /* Texto blanco */
+        }
+
+        /* Botón con borde verde */
+        .btn-bordered.btn-green {
+            border: 2px solid #28a745; /* Borde verde */
+            color: #28a745; /* Texto verde */
+        }
+        .btn-bordered.btn-green:hover {
+            background-color: #28a745; /* Fondo verde al pasar el cursor */
+            color: #fff; /* Texto blanco */
+        }
+
+        /* Botón con borde naranja */
+        .btn-bordered.btn-orange {
+            border: 2px solid #fd7e14; /* Borde naranja */
+            color: #fd7e14; /* Texto naranja */
+        }
+        .btn-bordered.btn-orange:hover {
+            background-color: #fd7e14; /* Fondo naranja al pasar el cursor */
+            color: #fff; /* Texto blanco */
+        }
+
+        /* Botón con borde morado */
+        .btn-bordered.btn-purple {
+            border: 2px solid #6f42c1; /* Borde morado */
+            color: #6f42c1; /* Texto morado */
+        }
+        .btn-bordered.btn-purple:hover {
+            background-color: #6f42c1; /* Fondo morado al pasar el cursor */
+            color: #fff; /* Texto blanco */
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
